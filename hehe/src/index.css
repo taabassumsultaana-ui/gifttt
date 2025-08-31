@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg1: #ffe4e6; /* pink-100 */
+  --bg2: #fecdd3; /* pink-200 */
+}
+body {
+  background: linear-gradient(to bottom, var(--bg1), var(--bg2));
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, 'Apple Color Emoji','Segoe UI Emoji';
+}
